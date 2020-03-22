@@ -1,0 +1,117 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+}
+
+.name_highlight{
+    color: orange;
+}
+section{
+    margin-bottom: 100px;
+}
+.profile-part{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat ;
+    margin-bottom: 100px;
+}
+.profile-part-1{
+    float: left;
+    width: 40%;
+    padding-left: 140px;
+}
+
+.profile-part-2{
+    width: 57%;
+    margin: 39px 5px 36px 40px;
+}
+
+.profile-part-2 img{
+    height: 630px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_decoration{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    letter-spacing: 2px;
+}
+
+.dream-part-1{
+    height: 630px;
+    float: left;
+    width: 50%;
+
+}
+.dream-part-2{
+    float: left;
+    width: 40%;
+}
+
+.dream-part-2 h2 {
+    font-size: 40px;
+}
+.dream-part-2 p{
+    padding-right: 222px;
+    margin: 24px 0px;
+}
+.dream-part-1 img{
+    height: 630px;
+    margin: 0px auto;
+    margin-left: 100px;
+
+}
+.dream-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    float: right;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 40px 26px;
+}
+
+.single-box{
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 24px;
+    height: 80%;
+    border-radius: 5px;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    float: left;
+    background-position: left;
+    
+}
+#border-style-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+#border-style-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    background-color: white;
+}
+footer p{
+    text-align: center;
+}
